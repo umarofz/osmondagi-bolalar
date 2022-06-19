@@ -1,0 +1,106 @@
+.about {
+
+  &__inner-wrapper {
+  }
+
+  &__container {
+    display: flex;
+    position: relative;
+    background-image: url("./../../images/biz-haqimizda.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 620px;
+    height: 350px;
+  }
+
+  &__left {
+    margin-right: 53px;
+  }
+
+  &__img {
+    width: 280px;
+    height: 52px;
+    position: absolute;
+    left: 6%;
+    top: 66%;
+  }
+
+  &__stat {
+    position: absolute;
+    top: 20%;
+    left: 66%;
+  }
+
+  &__stat-heading {
+    font-family: 'Bw Stretch';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 74px;
+    line-height: 63px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  &__stat-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 45px;
+  }
+
+  &__right {
+    margin-left: 674px;
+  }
+
+  &__heading {
+    font-family: 'Bw Stretch';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 63px;
+    text-transform: uppercase;
+    color: #222831;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    color: #222831;
+    width: 657px;
+  }
+
+  &__text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 51px;
+    width: 638px;
+  }
+
+  &__btn {
+    border: 2px solid #222831;
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #222831;
+padding: 17px 82px;
+  }
+}

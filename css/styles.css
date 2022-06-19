@@ -380,6 +380,13 @@ template {
   src: url("../fonts/BwStretch-Heavy.woff2") format("woff2"), url("../fonts/BwStretch-Heavy.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+@font-face {
+  font-family: "Bw Stretch";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/BwStretch-Black.woff2") format("woff2"), url("../fonts/BwStretch-Black.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 *,
 *::before,
 *::after {
@@ -527,4 +534,94 @@ h1, h2, h3, h4, h5, h6, p {
   width: 22px;
   height: 22px;
   margin-right: 8px;
+}
+.about__container {
+  display: flex;
+  position: relative;
+  background-image: url("./../../images/biz-haqimizda.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 620px;
+  height: 350px;
+}
+.about__left {
+  margin-right: 53px;
+}
+.about__img {
+  width: 280px;
+  height: 52px;
+  position: absolute;
+  left: 6%;
+  top: 66%;
+}
+.about__stat {
+  position: absolute;
+  top: 20%;
+  left: 66%;
+}
+.about__stat-heading {
+  font-family: "Bw Stretch";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 74px;
+  line-height: 63px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.about__stat-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin-bottom: 45px;
+}
+.about__right {
+  margin-left: 674px;
+}
+.about__heading {
+  font-family: "Bw Stretch";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 63px;
+  text-transform: uppercase;
+  color: #222831;
+  margin-bottom: 10px;
+}
+.about__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  color: #222831;
+  width: 657px;
+}
+.about__text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.5;
+  margin-bottom: 51px;
+  width: 638px;
+}
+.about__btn {
+  border: 2px solid #222831;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #222831;
+  padding: 17px 82px;
 }/*# sourceMappingURL=styles.css.map */
