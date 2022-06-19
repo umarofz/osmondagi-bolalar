@@ -1,0 +1,94 @@
+.hero {
+  background-color: #222831;
+  padding-top: 100px;
+  margin-bottom: 90px;
+
+  &__inner-wrapper {
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  &__left {
+  }
+
+  &__heading {
+    font-family: 'Bw Stretch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 685px;
+    margin-bottom: 35px;
+  }
+
+  &__span {
+    color: #FFD369;
+  }
+
+  &__play-btn {
+  }
+
+  &__play {
+    margin-bottom: 93px;
+  }
+
+  &__heading-name {
+    font-family: 'Bw Stretch';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFD369;
+    margin-bottom: 5px;
+  }
+
+  &__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    opacity: 0.67;
+  }
+
+  &__center {
+    position: absolute;
+    top: 86%;
+    left: 45%;
+  }
+
+  &__dot {
+    margin-right: 15px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 0.5;
+    width: 8px;
+    height: 8px;
+  }
+
+  &__dot--active {
+    opacity: 1;
+    background-color: transparent;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+  }
+
+  &__right {
+  }
+
+  &__img {
+  }
+}

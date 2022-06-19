@@ -1,0 +1,47 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  background-color: #222831;
+
+  &__inner-wrapper {
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo-link {
+    text-decoration: none;
+  }
+
+  &__logo {
+  }
+
+  &__nav {
+  }
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    padding-top: 30px;
+    padding-bottom: 31px;
+  }
+
+  &__item-link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+}
