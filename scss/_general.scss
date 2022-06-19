@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *::before,
 *::after {
@@ -8,6 +12,7 @@ body {
   font-family: 'Roboto', 'Arial', sans-serif;
   margin: 0;
   padding: 20px auto;
+  overflow-x: hidden;
 }
 
 img {
