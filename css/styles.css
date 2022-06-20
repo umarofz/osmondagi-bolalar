@@ -442,7 +442,7 @@ h1, h2, h3, h4, h5, h6, p {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 999;
   background-color: #222831;
 }
 .header__container {
@@ -623,6 +623,9 @@ h1, h2, h3, h4, h5, h6, p {
   width: 638px;
 }
 .about__btn {
+  border: none;
+  outline: none;
+  background: none;
   border: 2px solid #222831;
   text-decoration: none;
   font-family: "Roboto";
@@ -632,6 +635,8 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 19px;
   text-align: center;
   color: #222831;
+  min-width: 220px;
+  max-width: 300px;
   padding: 17px 82px;
 }
 
@@ -869,4 +874,322 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 19px;
   color: #242424;
   opacity: 0.7;
+}
+
+.korsatuv__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.korsatuv__flex {
+  display: flex;
+}
+.korsatuv__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 110%;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.korsatuv__heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 110%;
+  color: #000000;
+  margin-bottom: 46px;
+}
+.korsatuv__btn {
+  border: none;
+  outline: none;
+  background: none;
+  border: 2px solid #222831;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #222831;
+  min-width: 220px;
+  max-width: 300px;
+  height: 52px;
+  padding: 16px 58px;
+}
+.korsatuv__left {
+  position: relative;
+  background-image: url(./../../images/korsatuv-1.png);
+  background-repeat: no-repeat;
+  width: 648px;
+  height: 400px;
+  z-index: 400;
+  margin-right: 30px;
+  max-width: 648px;
+  width: 100%;
+}
+.korsatuv__left:hover::before {
+  content: url("./../../images/play__btn.svg");
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  z-index: 600;
+}
+.korsatuv__left:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 500;
+}
+.korsatuv__left-info {
+  position: absolute;
+  left: 7%;
+  top: 80%;
+}
+.korsatuv__left-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+.korsatuv__left-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+.korsatuv__left-bottom {
+  padding-top: 432px;
+}
+.korsatuv__left-bottom-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #222831;
+  margin-bottom: 13px;
+}
+.korsatuv__left-bottom-text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.6;
+  margin-bottom: 47px;
+}
+.korsatuv__left-bottom-inner {
+  display: flex;
+  max-width: 335px;
+  justify-content: space-between;
+}
+.korsatuv__left-bottom-inner-wrapper-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.6;
+  margin-bottom: 4px;
+}
+.korsatuv__left-bottom-inner-wrapper-text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+.korsatuv__list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.korsatuv__item {
+  background-image: url("./../../images/brat-1.png");
+  width: 309px;
+  height: 300px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 112px;
+}
+.korsatuv__item:nth-child(2) {
+  background-image: url("./../../images/brat-2.png");
+}
+.korsatuv__item:nth-child(3) {
+  background-image: url("./../../images/brat-3.png");
+}
+.korsatuv__item:nth-child(4) {
+  background-image: url("./../../images/brat-4.png");
+  margin-bottom: 200px;
+}
+.korsatuv__item:hover::before {
+  content: url("./../../images/play__btn.svg");
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  z-index: 600;
+}
+.korsatuv__item:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 500;
+}
+.korsatuv__item-text {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #222831;
+}
+
+.kiyim {
+  padding-top: 140px;
+  background-image: url("./../../images/circle.png");
+  background-repeat: no-repeat;
+  background-position: 1570px 22%;
+  margin-top: -140px;
+  margin-bottom: 100px;
+}
+.kiyim__container {
+  margin-top: 200px;
+}
+.kiyim__heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 110%;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.kiyim__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 62px;
+  color: #000000;
+}
+.kiyim__list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.kiyim__item {
+  position: relative;
+}
+.kiyim__item-wrapper {
+  position: absolute;
+  left: 10%;
+  top: 65%;
+}
+.kiyim__item-heading {
+  font-family: "Bw Stretch";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+  width: 250px;
+}
+.kiyim__item-link {
+  background: #FFD369;
+  box-shadow: 0px 4px 54px rgba(255, 211, 105, 0.25);
+  padding: 20px 46px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #222831;
+}
+.kiyim__location-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 110%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.kiyim__list2 {
+  display: flex;
+  gap: 119px;
+  padding: 45px 109px 45px 50px;
+}
+.kiyim__item2__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.kiyim__item2__address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 15px;
+  width: 325px;
+}
+.kiyim__item2__address::before {
+  content: url("./../../images/location.svg");
+  width: 14px;
+  height: 17px;
+  margin-right: 10px;
+}
+.kiyim__item2-wrapper {
+  display: flex;
+  max-width: 323px;
+  justify-content: space-between;
+}
+.kiyim__item2-wrapper-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.kiyim__item2-wrapper-text::before {
+  content: url("./../../images/phone__logo.svg");
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+.kiyim__item2-wrapper-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #2F48BE;
 }/*# sourceMappingURL=styles.css.map */

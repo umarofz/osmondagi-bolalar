@@ -1,0 +1,160 @@
+.kiyim {
+  padding-top: 140px;
+  background-image: url("./../../images/circle.png");
+  background-repeat: no-repeat;
+  background-position: 1570px 22%;
+  margin-top: -140px;
+  margin-bottom: 100px;
+
+  &__inner-wrapper {
+  }
+
+  &__container {
+    margin-top: 200px;
+  }
+
+  &__heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 110%;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 62px;
+    color: #000000;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  &__item {
+    position: relative;
+  }
+
+  &__item-img {
+  }
+
+  &__item-wrapper {
+    position: absolute;
+    left: 10%;
+    top: 65%;
+  }
+
+  &__item-heading {
+    font-family: 'Bw Stretch';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 41px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    width: 250px;
+  }
+
+  &__item-link {
+    background: #FFD369;
+    box-shadow: 0px 4px 54px rgba(255, 211, 105, 0.25);
+    padding: 20px 46px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222831;
+  }
+
+  &__location-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 110%;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  &__list2 {
+    display: flex;
+    gap: 119px;
+    padding: 45px 109px 45px 50px;
+  }
+
+  &__item2 {
+  }
+
+  &__item2__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+
+  &__item2__address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 15px;
+    width: 325px;
+
+    &::before {
+      content: url("./../../images/location.svg");
+      width: 14px;
+      height: 17px;
+      margin-right: 10px;
+    }
+  }
+
+  &__item2-wrapper {
+    display: flex;
+    max-width: 323px;
+    justify-content: space-between;
+  }
+
+  &__item2-wrapper-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+    &::before {
+      content: url("./../../images/phone__logo.svg");
+      width: 17px;
+      height: 17px;
+      margin-right: 10px;
+    }
+  }
+
+  &__item2-wrapper-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #2F48BE;
+  }
+}

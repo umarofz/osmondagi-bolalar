@@ -1,0 +1,17 @@
+@mixin btn__normal {
+  border: none;
+  outline: none;
+  background: none;
+  border: 2px solid #222831;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #222831;
+  // padding: 17px 82px;
+  min-width: 220px;
+  max-width: 300px;
+}

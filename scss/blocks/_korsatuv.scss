@@ -1,0 +1,218 @@
+.korsatuv {
+
+  &__inner-wrapper {
+  }
+
+  &__container {
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__wrapper__info {
+
+  }
+
+  &__flex {
+    display: flex;
+  }
+
+  &__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 110%;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+
+  &__heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 110%;
+    color: #000000;
+    margin-bottom: 46px;
+  }
+
+  &__btn {
+    @include btn__normal ;
+    height: 52px;
+    padding: 16px 58px;
+  }
+
+  &__left {
+    position: relative;
+    background-image: url(./../../images/korsatuv-1.png);
+    background-repeat: no-repeat;
+    width: 648px;
+    height: 400px;
+    z-index: 400;
+    margin-right: 30px;
+    max-width: 648px;
+    width: 100%;
+
+    &:hover::before {
+      content: url("./../../images/play__btn.svg");
+      position: absolute;
+      left: 45%;
+      top: 45%;
+      z-index: 600;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      z-index: 500;
+    }
+  }
+
+  &__left-top {
+  }
+
+  &__left-btn {
+  }
+
+  &__left-info {
+    position: absolute;
+    left: 7%;
+    top: 80%;
+  }
+
+  &__left-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+
+  &__left-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+  }
+
+  &__left-bottom {
+    padding-top: 432px;
+  }
+
+  &__left-bottom-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #222831;
+    margin-bottom: 13px;
+  }
+
+  &__left-bottom-text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 47px;
+  }
+
+  &__left-bottom-inner {
+    display: flex;
+    max-width: 335px;
+    justify-content: space-between;
+  }
+
+  &__left-bottom-inner-wrapper {
+  }
+
+  &__left-bottom-inner-wrapper-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 4px;
+  }
+
+  &__left-bottom-inner-wrapper-text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  &__right {
+  }
+
+  &__list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  &__item {
+    background-image: url("./../../images/brat-1.png");
+    width: 309px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 112px;
+
+    &:nth-child(2) {
+      background-image: url("./../../images/brat-2.png");
+    }
+    &:nth-child(3) {
+      background-image: url("./../../images/brat-3.png");
+    }
+    &:nth-child(4) {
+      background-image: url("./../../images/brat-4.png");
+      margin-bottom: 200px;
+    }
+
+    &:hover::before {
+      content: url("./../../images/play__btn.svg");
+      position: absolute;
+      left: 45%;
+      top: 45%;
+      z-index: 600;
+    }
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+      cursor: pointer;
+      z-index: 500;
+    }
+  }
+
+  &__item-btn {
+  }
+
+  &__item-text {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #222831;
+  }
+}
