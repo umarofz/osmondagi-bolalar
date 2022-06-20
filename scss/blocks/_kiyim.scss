@@ -2,9 +2,9 @@
   padding-top: 140px;
   background-image: url("./../../images/circle.png");
   background-repeat: no-repeat;
-  background-position: 1570px 22%;
+  background-position: calc(100% - 600px)  calc(100% - 650px);
   margin-top: -140px;
-  margin-bottom: 100px;
+  margin-bottom: 279px;
 
   &__inner-wrapper {
   }

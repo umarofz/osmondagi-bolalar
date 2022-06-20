@@ -1062,9 +1062,9 @@ h1, h2, h3, h4, h5, h6, p {
   padding-top: 140px;
   background-image: url("./../../images/circle.png");
   background-repeat: no-repeat;
-  background-position: 1570px 22%;
+  background-position: calc(100% - 600px) calc(100% - 650px);
   margin-top: -140px;
-  margin-bottom: 100px;
+  margin-bottom: 279px;
 }
 .kiyim__container {
   margin-top: 200px;
@@ -1192,4 +1192,124 @@ h1, h2, h3, h4, h5, h6, p {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2F48BE;
+}
+
+.hamkor {
+  margin-bottom: 280px;
+}
+.hamkor__inner-wrapper {
+  max-width: 1116px;
+}
+.hamkor__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.hamkor__heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 60px;
+  color: #222831;
+  width: 452px;
+  margin-bottom: 40px;
+}
+.hamkor__span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 60px;
+  color: #222831;
+}
+.hamkor__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 11px;
+}
+.hamkor__wrapper {
+  display: flex;
+  position: relative;
+  margin-bottom: 32px;
+}
+.hamkor__wrapper-num {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222831;
+  margin-right: 20px;
+}
+.hamkor__wrapper-num::before {
+  content: url("./../../images/phone2.svg");
+  margin-right: 9px;
+}
+.hamkor__wrapper-number {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222831;
+}
+.hamkor__wrapper-span {
+  display: inline-block;
+  width: 16px;
+  height: 0;
+  position: absolute;
+  background-color: #222831;
+  border: 1px solid #222831;
+  transform: rotate(90deg);
+  top: 45%;
+  left: 31%;
+}
+.hamkor__text2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 17px;
+}
+.hamkor__links {
+  display: flex;
+}
+.hamkor__link {
+  text-decoration: none;
+  border: 1px solid #222831;
+  color: #222831;
+  padding: 7px 19px 7px 13px;
+  margin-right: 16px;
+}
+.hamkor__img {
+  position: absolute;
+  left: 60%;
+  top: -45%;
+}
+
+.footer {
+  background: #222831;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.footer__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110%;
+  color: #FFFFFF;
+  opacity: 0.8;
 }/*# sourceMappingURL=styles.css.map */
