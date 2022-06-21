@@ -45,4 +45,169 @@
     line-height: 19px;
     color: #FFFFFF;
   }
+
+  &__button {
+    border: none;
+    outline: none;
+    background: none;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+
+  background-color: #222831;
+
+  &__inner-wrapper {
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo-link {
+    text-decoration: none;
+  }
+
+  &__logo {
+  }
+
+  &__nav {
+  }
+
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    padding-top: 30px;
+    padding-bottom: 31px;
+  }
+
+  &__item-link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+
+    &__button {
+      border: none;
+      outline: none;
+      background: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+
+    &__inner-wrapper {
+      position: relative;
+    }
+
+    &__container {
+      max-width: 800px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: -120px;
+    }
+
+    &__container--active {
+      .header__nav {
+        display: flex;
+      }
+
+      .header__btn-img {
+        display: none;
+        position: absolute;
+        top: 0;
+      }
+
+      .header__btn-img-cross {
+        display: block;
+        position: absolute;
+        top: 3500%;
+        left: -2100%;
+
+      }
+      .header__logo {
+        display: none;
+      }
+    }
+
+    &__btn-img {
+      margin-left: 200px;
+    }
+
+    &__btn-img-cross {
+      display: none;
+      margin-left: 200px;
+    }
+
+    &__logo-link {
+      text-decoration: none;
+    }
+
+    &__logo {
+      margin-right: 100px;
+      margin-left: -150px;
+    }
+
+    &__nav {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      height: calc(100vh - 100%);
+      width: 400px;
+      align-items: flex-end;
+      justify-content: center;
+      background: #FFD369;
+      height: 550px;
+      margin-left: -5px;
+      padding: 78px 73px 45px 136px;
+    }
+
+    &__list {
+      flex-direction: column;
+      gap: 35px;
+    }
+
+    &__item {
+    }
+
+    &__item-link {
+      display: flex;
+      align-items: flex-end;
+      text-align: start;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 26px;
+      text-align: center;
+      color: #222831;
+    }
+
+    &__button {
+      display: block;
+      position: relative;
+    }
+  }
 }

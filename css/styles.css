@@ -470,7 +470,132 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 19px;
   color: #FFFFFF;
 }
+.header__button {
+  border: none;
+  outline: none;
+  background: none;
+  display: none;
+}
 
+@media only screen and (max-width: 800px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #222831;
+  }
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header__logo-link {
+    text-decoration: none;
+  }
+  .header__list {
+    display: flex;
+    gap: 30px;
+  }
+  .header__item {
+    padding-top: 30px;
+    padding-bottom: 31px;
+  }
+  .header__item-link {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+  }
+  .header__button {
+    border: none;
+    outline: none;
+    background: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .header__inner-wrapper {
+    position: relative;
+  }
+  .header__container {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -120px;
+  }
+  .header__container--active .header__nav {
+    display: flex;
+  }
+  .header__container--active .header__btn-img {
+    display: none;
+    position: absolute;
+    top: 0;
+  }
+  .header__container--active .header__btn-img-cross {
+    display: block;
+    position: absolute;
+    top: 3500%;
+    left: -2100%;
+  }
+  .header__container--active .header__logo {
+    display: none;
+  }
+  .header__btn-img {
+    margin-left: 200px;
+  }
+  .header__btn-img-cross {
+    display: none;
+    margin-left: 200px;
+  }
+  .header__logo-link {
+    text-decoration: none;
+  }
+  .header__logo {
+    margin-right: 100px;
+    margin-left: -150px;
+  }
+  .header__nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: calc(100vh - 100%);
+    width: 400px;
+    align-items: flex-end;
+    justify-content: center;
+    background: #FFD369;
+    height: 550px;
+    margin-left: -5px;
+    padding: 78px 73px 45px 136px;
+  }
+  .header__list {
+    flex-direction: column;
+    gap: 35px;
+  }
+  .header__item-link {
+    display: flex;
+    align-items: flex-end;
+    text-align: start;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #222831;
+  }
+  .header__button {
+    display: block;
+    position: relative;
+  }
+}
 .hero {
   background-color: #222831;
   padding-top: 100px;
