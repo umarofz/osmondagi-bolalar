@@ -921,6 +921,87 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 17px 82px;
 }
 
+@media only screen and (max-width: 400px) {
+  .about {
+    margin-bottom: 100px;
+  }
+  .about__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url("./../../images/haqimizda-mobile.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 375px;
+    height: 300px;
+  }
+  .about__left {
+    margin-right: 53px;
+  }
+  .about__img {
+    width: 160px;
+    height: 36px;
+    position: absolute;
+    left: 6%;
+    top: 78%;
+  }
+  .about__stat {
+    position: absolute;
+    top: 20%;
+    left: 63%;
+  }
+  .about__stat-heading {
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 2px;
+  }
+  .about__stat-text {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 40px;
+  }
+  .about__right {
+    margin-left: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  .about__heading {
+    position: absolute;
+    top: -110%;
+    left: 0;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .about__text {
+    font-size: 16px;
+    line-height: 24px;
+    width: 345px;
+  }
+  .about__text2 {
+    font-size: 14px;
+    line-height: 22px;
+    width: 345px;
+  }
+  .about__btn {
+    border: none;
+    outline: none;
+    background: none;
+    border: 2px solid #222831;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222831;
+    min-width: 220px;
+    max-width: 300px;
+    padding: 17px 82px;
+    margin-left: 70px;
+  }
+}
 .team {
   margin-bottom: 150px;
 }
@@ -1103,7 +1184,172 @@ h1, h2, h3, h4, h5, h6, p {
 .team__item-wrapper-link {
   text-decoration: none;
 }
+.team__btn {
+  display: none;
+}
 
+@media only screen and (max-width: 400px) {
+  .team {
+    margin-bottom: 150px;
+    margin-top: 450px;
+  }
+  .team__text {
+    font-family: "Roboto";
+    font-style: normal;
+    margin-bottom: 4px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+  }
+  .team__heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 154px;
+  }
+  .team__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .team__item {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(34, 40, 49, 0.05);
+    width: 165px;
+    height: 245px;
+    position: relative;
+    padding: 75px 17px 25px 17px;
+  }
+  .team__item::before {
+    content: url("./../../images/person-1.png");
+    width: 164px;
+    height: 164px;
+    position: absolute;
+    top: -50%;
+    left: 25%;
+  }
+  .team__item:nth-child(2)::before {
+    content: url("./../../images/person-2.png");
+    width: 164px;
+    height: 164px;
+    position: absolute;
+    top: -60%;
+    left: 10%;
+  }
+  .team__item:nth-child(3)::before {
+    content: url("./../../images/person-3.png");
+    width: 164px;
+    height: 164px;
+    position: absolute;
+    top: -50%;
+    left: 25%;
+  }
+  .team__item:nth-child(4)::before {
+    content: url("./../../images/person-4.png");
+    width: 164px;
+    height: 164px;
+    position: absolute;
+    top: -50%;
+    left: 40%;
+  }
+  .team__item-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 4px;
+    color: #000000;
+    width: 235px;
+    margin-left: -25px;
+  }
+  .team__item-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #787878;
+    margin-bottom: 44px;
+    margin-left: -1px;
+    width: 213px;
+    margin-left: -15px;
+  }
+  .team__item-heading-margin {
+    margin-left: 10px;
+  }
+  .team__item-text-margin {
+    margin-left: 20px;
+  }
+  .team__item-heading-temur {
+    margin-left: -35px;
+  }
+  .team__item-text-temur {
+    margin-left: -20px;
+  }
+  .team__item-heading-sh {
+    margin-left: 10px;
+  }
+  .team__item-text-sh {
+    margin-left: 10px;
+  }
+  .team__item-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 16px;
+    gap: 20px;
+    width: 131px;
+    position: absolute;
+    left: 35%;
+  }
+  .team__item-wrapper-img {
+    border: 1px solid #A4A7B1;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+  }
+  .team__item-wrapper-img:last-child {
+    margin: 0;
+  }
+  .team svg {
+    border: 1px solid #222831;
+  }
+  .team__item-path {
+    background: #222831;
+  }
+  .team__item-wrapper-link {
+    text-decoration: none;
+  }
+  .team__item-none {
+    display: none;
+  }
+  .team__btn {
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    border: 2px solid #222831;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222831;
+    min-width: 220px;
+    max-width: 300px;
+    padding: 17px 63px;
+    margin-left: 25%;
+  }
+}
 .smm {
   margin-bottom: 100px;
 }
@@ -1157,6 +1403,64 @@ h1, h2, h3, h4, h5, h6, p {
   opacity: 0.7;
 }
 
+@media only screen and (max-width: 400px) {
+  .smm {
+    margin-bottom: 100px;
+  }
+  .smm__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .smm__heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 38.5px;
+    color: #000000;
+    margin-bottom: 5px;
+    margin-bottom: 35px;
+  }
+  .smm__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background: #FFFFFF;
+    margin-left: -150px;
+  }
+  .smm__item {
+    display: flex;
+  }
+  .smm__item-margin {
+    margin-left: 17%;
+  }
+  .smm__item-img {
+    margin-right: 15px;
+  }
+  .smm__item-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #242424;
+  }
+  .smm__item-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #242424;
+    opacity: 0.7;
+  }
+}
 .korsatuv__wrapper {
   display: flex;
   justify-content: space-between;
@@ -1339,6 +1643,193 @@ h1, h2, h3, h4, h5, h6, p {
   color: #222831;
 }
 
+@media only screen and (max-width: 400px) {
+  .korsatuv__wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .korsatuv__flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .korsatuv__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 110%;
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  .korsatuv__heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 110%;
+    color: #000000;
+    margin-bottom: 46px;
+  }
+  .korsatuv__btn {
+    border: none;
+    outline: none;
+    background: none;
+    border: 2px solid #222831;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222831;
+    min-width: 220px;
+    max-width: 300px;
+    height: 52px;
+    padding: 16px 58px;
+    position: absolute;
+    top: 1200%;
+    left: 25%;
+  }
+  .korsatuv__left {
+    position: relative;
+    background-image: url(./../../images/korsatuv-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 648px;
+    height: 213px;
+    z-index: 400;
+    margin-right: 30px;
+    max-width: 345px;
+    width: 100%;
+  }
+  .korsatuv__left:hover::before {
+    content: url("./../../images/play__btn.svg");
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    z-index: 600;
+  }
+  .korsatuv__left:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    z-index: 500;
+  }
+  .korsatuv__left-info {
+    position: absolute;
+    left: 7%;
+    top: 80%;
+  }
+  .korsatuv__left-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.8;
+  }
+  .korsatuv__left-heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+  }
+  .korsatuv__left-bottom {
+    position: absolute;
+    left: 0;
+    top: -70%;
+  }
+  .korsatuv__left-bottom-text {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+  }
+  .korsatuv__left-bottom-text2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 47px;
+  }
+  .korsatuv__left-bottom-inner {
+    display: flex;
+    max-width: 335px;
+    justify-content: space-between;
+  }
+  .korsatuv__left-bottom-inner-wrapper-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.6;
+    margin-bottom: 4px;
+  }
+  .korsatuv__left-bottom-inner-wrapper-text2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+  .korsatuv__list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 300px;
+    width: 345px;
+    height: 504px;
+  }
+  .korsatuv__item {
+    background-image: url("./../../images/brat-1.png");
+    width: 165px;
+    height: 232px;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 120px;
+  }
+  .korsatuv__item:nth-child(2) {
+    background-image: url("./../../images/brat-2.png");
+    margin-bottom: 15px;
+  }
+  .korsatuv__item:nth-child(3) {
+    background-image: url("./../../images/brat-3.png");
+  }
+  .korsatuv__item:nth-child(4) {
+    background-image: url("./../../images/brat-4.png");
+    margin-bottom: 200px;
+  }
+  .korsatuv__item:hover::before {
+    content: url("./../../images/play__btn.svg");
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    z-index: 600;
+  }
+  .korsatuv__item:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    z-index: 500;
+  }
+  .korsatuv__left-bottom-inner-none {
+    display: none;
+  }
+  .korsatuv__item-text {
+    font-size: 14px;
+    line-height: 19px;
+    width: 165px;
+  }
+}
 .kiyim {
   padding-top: 140px;
   background-image: url("./../../images/circle.png");

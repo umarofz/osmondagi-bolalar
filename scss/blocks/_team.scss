@@ -202,4 +202,189 @@
   &__item-wrapper-link {
     text-decoration: none;
   }
+
+  &__btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .team {
+    margin-bottom: 150px;
+    margin-top: 450px;
+
+    &__inner-wrapper {
+    }
+
+    &__container {
+    }
+
+    &__text {
+      font-family: 'Roboto';
+      font-style: normal;
+      margin-bottom: 4px;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 100%;
+      color: #000000;
+    }
+
+    &__heading {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 100%;
+      color: #000000;
+      margin-bottom: 154px;
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      // gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      background: #FFFFFF;
+      box-shadow: 0px 20px 50px rgba(34, 40, 49, 0.05);
+      width: 165px;
+      height: 245px;
+      position: relative;
+      padding: 75px 17px 25px 17px;
+
+      &::before {
+        content: url("./../../images/person-1.png");
+        width: 164px;
+        height: 164px;
+        position: absolute;
+        top: -50%;
+        left: 25%;
+      }
+
+      &:nth-child(2)::before {
+        content: url("./../../images/person-2.png");
+        width: 164px;
+        height: 164px;
+        position: absolute;
+        top: -60%;
+        left: 10%;
+      }
+      &:nth-child(3)::before {
+        content: url("./../../images/person-3.png");
+        width: 164px;
+        height: 164px;
+        position: absolute;
+        top: -50%;
+        left: 25%;
+      }
+      &:nth-child(4)::before {
+        content: url("./../../images/person-4.png");
+        width: 164px;
+        height: 164px;
+        position: absolute;
+        top: -50%;
+        left: 40%;
+      }
+    }
+
+    &__item-img {
+    }
+
+    &__item-heading {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      margin-bottom: 4px;
+      color: #000000;
+      width: 235px;
+      margin-left: -25px;
+    }
+
+    &__item-text {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      color: #787878;
+      margin-bottom: 44px;
+      margin-left: -1px;
+      width: 213px;
+      margin-left: -15px;
+    }
+
+    &__item-heading-margin {
+      margin-left: 10px;
+    }
+
+    &__item-text-margin {
+      margin-left: 20px;
+    }
+
+    &__item-heading-temur {
+      margin-left: -35px
+    }
+
+    &__item-text-temur {
+      margin-left: -20px;
+    }
+
+    &__item-heading-sh {
+      margin-left: 10px;
+    }
+    &__item-text-sh {
+      margin-left: 10px;
+    }
+
+    &__item-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 16px;
+      gap: 20px;
+      width: 131px;
+      position: absolute;
+      left: 35%;
+    }
+
+    &__item-wrapper-img {
+      border: 1px solid #A4A7B1;
+      border-radius: 50%;
+      width: 39px;
+      height: 39px;
+
+      &:last-child {
+        margin: 0;
+      }
+    }
+
+    svg {
+      border: 1px solid #222831;
+    }
+
+    &__item-path {
+      background: #222831;
+    }
+
+    &__item-wrapper-link {
+      text-decoration: none;
+    }
+
+    &__item-none {
+      display: none;
+    }
+
+    &__btn {
+      display: block;
+      @include btn__normal;
+      padding: 17px 63px;
+      margin-left: 25%;
+    }
+  }
 }
