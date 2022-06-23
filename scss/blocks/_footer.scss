@@ -20,15 +20,48 @@
 
   &__text {
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 110%;
-color: #FFFFFF;
-opacity: 0.8;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    color: #FFFFFF;
+    opacity: 0.8;
   }
 
   &__img {
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer {
+    background: #222831;
+
+    &__inner-wrapper {
+    }
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 15px;
+    }
+
+    &__logo-link {
+    }
+
+    &__logo {
+    }
+
+    &__text {
+      width: 158px;
+      font-size: 10px;
+      line-height: 14px;
+      text-align: right;
+    }
+
+    &__img {
+      display: none;
+    }
   }
 }

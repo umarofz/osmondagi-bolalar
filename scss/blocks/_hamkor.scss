@@ -112,3 +112,109 @@
     top: -45%;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .hamkor {
+    margin-bottom: 145px;
+
+    &__inner-wrapper {
+      max-width: 1116px;
+    }
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    &__left {
+    }
+
+    &__heading {
+      font-size: 16px;
+      line-height: 100%;
+      width: 197px;
+    }
+
+    &__span {
+      font-size: 30px;
+      line-height: 100%;
+    }
+
+    &__text {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+      margin-bottom: 11px;
+    }
+
+    &__wrapper {
+      display: flex;
+      position: relative;
+      margin-bottom: 32px;
+    }
+
+    &__wrapper-num {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      color: #222831;
+      margin-right: 20px;
+      &::before {
+        content: url("./../../images/phone2.svg");
+        margin-right: 9px;
+      }
+    }
+    &__wrapper-number {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      color: #222831;
+    }
+
+    &__wrapper-span {
+      display: inline-block;
+      width: 16px;
+      height: 0;
+      position: absolute;
+      background-color: #222831;
+      border: 1px solid #222831;
+      transform: rotate(90deg);
+      top: 45%;
+      left: 49%;
+    }
+
+    &__text2 {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #000000;
+      margin-bottom: 17px;
+    }
+
+    &__links {
+      display: flex;
+    }
+
+    &__link {
+      text-decoration: none;
+      border: 1px solid #222831;
+      color: #222831;
+      padding: 7px 19px 7px 13px;
+      margin-right: 16px;
+    }
+
+    &__img {
+      display: none;
+    }
+  }
+}
